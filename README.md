@@ -7,7 +7,7 @@ npm install
 </code>
 <br>
 <br>
-Interact with the Contract with:
+Interact with the Contract:
 <br>
 <code>
 node contract-interact.js
