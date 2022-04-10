@@ -7,6 +7,4 @@ const contractJson = fs.readFileSync('./abi.json')
 const abi = JSON.parse(contractJson)
 const mSandMaticContract = new web3.eth.Contract(abi, contractAddress)
 
-console.log(mSandMaticContract)
-
-mSandMaticContract.balanceOf('0x7e5475290Df8E66234A541483453B5503551C780')
+console.log(mSandMaticContract.methods.balanceOf('0x7e5475290Df8E66234A541483453B5503551C780'))
